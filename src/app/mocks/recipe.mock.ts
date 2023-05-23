@@ -1,5 +1,5 @@
 import { Recipe } from './../models/recipe.model';
-
+//Recipe deve essere tipizzata come il modello
 export const RECIPES: Recipe[] = [
   {
     _id: 1,

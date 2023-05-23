@@ -4,7 +4,12 @@
     <div class="card-body">
       <h5 class="card-title">{{recipe.title}}</h5>
       <p class="card-text">{{recipe.description}}</p>
-      <a href="#" class="btn btn-primary">visualizza</a>
+      <!-- percorso assoluto
+      <a  class="btn btn-primary" routerLink="/ricette/dettaglio/{{recipe._id}}">visualizza</a> -->
+<!-- percorso relativo-->
+      <div class="div-btn">
+        <a  class="btn btn-primary" routerLink="dettaglio/{{recipe.title}}/{{recipe._id}}">visualizza</a>
+      </div>
     </div>
   </div>
 </div>

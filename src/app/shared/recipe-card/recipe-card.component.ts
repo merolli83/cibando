@@ -1,3 +1,4 @@
+//Input è un decoratore
 import { Component ,Input} from '@angular/core';
 import { Recipe } from 'src/app/models/recipe.model';
 

@@ -8,7 +8,7 @@
   .card-title {
     font-weight: bold;
     font-size: 16px;
-    color: red;
+    color: #8e210b;
     }
   .card-image{
     height: 200px;
@@ -18,6 +18,19 @@
   }
   .card-text{
     text-align: justify;
+  }
+
+  .div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a.btn.btn-primary {
+    background-color: #8e210b;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
   }
 
 }
